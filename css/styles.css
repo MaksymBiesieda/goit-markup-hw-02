@@ -1,0 +1,199 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-background-color: #ffffff; 
+    --accent-background-color: #2F303A;
+}
+body {
+color: var(--primary-text-color);
+background-color: var(--primary-background-color);
+font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* Header */
+
+
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+}
+.header-logo {
+    color:#000000;
+}
+.nav-link {
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+}
+.contacts-link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--accent-background-color);
+}
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+
+/* Features */
+.features-subtitle {
+color: var(--title-text-color);
+font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features-text {
+    font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+
+/* Activity */
+.activity-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/* Team */
+.team {
+    background-color: #F5F4FA;
+}
+ .team-members {
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color)
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+}
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team-text {
+    background-color: var(--primary-background-color)
+    font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer-logo {
+    color: #FFFFFF;
+}
+.footer {
+    background-color: var(--accent-background-color);
+}
+.adress-link {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-contacts:hover {
+    color: var(--accent-color);
+}
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio-button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
+    cursor: pointer;
+}
+.portfolio-subtitle {
+    color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.portfolio-text {
+    font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+}
